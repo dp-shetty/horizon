@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav{
+  background-color: gray;
+  height: 30px;
+  border-radius: 0px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  padding: 25px;
+}
+
+nav a{
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.active{
+  text-decoration: underline;
+  color: rgb(251, 255, 8);
+}
